@@ -1,5 +1,6 @@
 package org.sql.kata;
 
+import java.time.LocalDate;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -9,14 +10,12 @@ public class UserServiceTest {
   private UserService userService;
 
   @BeforeEach
-  void setup(){
+  void setup() {
     userService = new UserService();
   }
 
-
   @Test
-  void should_check_user(){
-
+  void should_check_user() {
+    UserDto userDto = new UserDto("Doe", "John", LocalDate.now(), "john.doe@foobar.com");
   }
-
 }
