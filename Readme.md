@@ -1,1 +1,1 @@
-Crafts session with Arolla
+Crafts session with Arolla v1
