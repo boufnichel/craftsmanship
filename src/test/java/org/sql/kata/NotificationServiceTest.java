@@ -7,8 +7,6 @@ import org.junit.jupiter.api.Test;
 public class NotificationServiceTest {
 
 
-
-
   @Test
   void notification_should_be_sent_when_its_user_birthday() {
       UserBirthdayNotificationService userBirthdayNotificationService = new UserBirthdayNotificationService();
